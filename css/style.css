@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+.header-section{
+    background-image: url('/image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.flexible{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.list-item{
+    padding-top: 3%;
+    margin-left: 30px;
+}
+.list-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    
+}
+.name{
+    margin-left: 30px;
+}
+a:hover{
+    background-image: linear-gradient(rgb(36, 191, 238), rgb(64, 64, 209));
+    
+}
+.developer{
+    margin-top: 100px;
+    text-align: center;
+}
+.developer p{
+    border: 0 solid none;
+    height: 120px;
+    width: 600px;
+    margin-left: 30%;
+    font-size: 20px;
+}
+.developer h1{
+    font-size: 60px;
+}
+.blue-color{
+    color: rgb(72, 97, 206);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon,orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
