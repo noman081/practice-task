@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 .header-section{
-    background-image: url(/image/bg.jpg);
+    background-image: url('image/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
