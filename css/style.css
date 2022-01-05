@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 .header-section{
-    background-image: url('/image/bg.jpg');
+    background-image: linear-gradient(black, rgb(197, 78, 123));
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -95,7 +95,7 @@ a:hover{
 }
 
 #skill{
-    background-color: black;
+    background-image: linear-gradient(black, blue);
     color: white;
 }
 .skill-list{
@@ -114,3 +114,44 @@ a:hover{
     color: lightgreen;
     text-align: center;
 }
+.contact{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.contact-list{
+    padding: 50px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.email{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+}
+.send-message{
+    padding: 10px 50px 50px 50px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    margin:5% 25% 5% 25%;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: linear-gradient(180deg, black, tomato);
+}
+text, button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: black;
+    padding: 5px;
+  }
+  footer p{
+    text-align: center;
+  }
